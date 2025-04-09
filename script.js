@@ -1,4 +1,5 @@
-const words = ["apple", "banana", "grape", "mango", "orange", "lemon"];
+const words = ["apple", "banana", "grape", "mango", "orange", "lemon", "watermelon", "pineapple", "papaya",
+              "strawberry", "coconot", "pomelo", "avocado", "blueberry"];
 let secretWord;
 let maxAttempts = 5;
 let attemptsLeft;
