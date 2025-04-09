@@ -1,4 +1,4 @@
-const words = ["apple", "banana", "grape", "peach", "kiwi", "orange", "lemon", "gwapo", "pangit", "ganda", "puta"];
+const words = ["apple", "banana", "grape", "mango", "orange", "lemon"];
 let secretWord;
 let maxAttempts = 5;
 let attemptsLeft;
@@ -50,7 +50,7 @@ function restartGame() {
   initializeGame();
 }
 
-// Allow Enter key to submit
+
 input.addEventListener("keydown", function (event) {
   if (event.key === "Enter") {
     checkGuess();
